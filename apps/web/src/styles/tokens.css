@@ -1,0 +1,81 @@
+:root {
+  --font-ui: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Inter',
+    'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'SF Mono', ui-monospace, 'JetBrains Mono', 'Fira Code', Menlo, monospace;
+
+  --bg-desktop-base: #12121a;
+  --bg-desktop-deep: #08080d;
+  --bg-blob-blue: rgba(10, 132, 255, 0.32);
+  --bg-blob-violet: rgba(127, 77, 255, 0.3);
+  --bg-blob-teal: rgba(48, 209, 88, 0.14);
+  --bg-blob-amber: rgba(255, 159, 10, 0.1);
+
+  --bg-menubar: rgba(26, 26, 30, 0.62);
+  --bg-window: rgba(44, 44, 48, 0.72);
+  --bg-window-solid: #2c2c30;
+  --bg-window-inactive: rgba(38, 38, 42, 0.66);
+  --bg-titlebar: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.015));
+  --bg-surface: rgba(255, 255, 255, 0.055);
+  --bg-surface-hover: rgba(255, 255, 255, 0.085);
+  --bg-surface-active: rgba(255, 255, 255, 0.12);
+  --bg-inset: rgba(0, 0, 0, 0.26);
+  --bg-dock: rgba(38, 38, 42, 0.6);
+  --bg-input: rgba(0, 0, 0, 0.24);
+  --bg-hover-soft: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #f5f5f7;
+  --text-secondary: #a8a8ae;
+  --text-tertiary: #75757c;
+  --text-inverted: #16161a;
+
+  --accent: #0a84ff;
+  --accent-hover: #3d9dff;
+  --accent-soft: rgba(10, 132, 255, 0.16);
+  --accent-ring: rgba(10, 132, 255, 0.45);
+
+  --green: #30d158;
+  --green-soft: rgba(48, 209, 88, 0.16);
+  --orange: #ff9f0a;
+  --orange-soft: rgba(255, 159, 10, 0.16);
+  --red: #ff453a;
+  --red-soft: rgba(255, 69, 58, 0.16);
+  --purple: #bf5af2;
+  --purple-soft: rgba(191, 90, 242, 0.16);
+  --yellow: #ffd60a;
+
+  --traffic-red: #ff5f57;
+  --traffic-red-border: #e0443e;
+  --traffic-yellow: #febc2e;
+  --traffic-yellow-border: #dea123;
+  --traffic-green: #28c840;
+  --traffic-green-border: #1aab29;
+
+  --stroke: rgba(255, 255, 255, 0.1);
+  --stroke-strong: rgba(255, 255, 255, 0.16);
+  --stroke-subtle: rgba(255, 255, 255, 0.055);
+  --separator: rgba(255, 255, 255, 0.08);
+
+  --shadow-window: 0 28px 70px rgba(0, 0, 0, 0.58), 0 2px 10px rgba(0, 0, 0, 0.32);
+  --shadow-window-inactive: 0 14px 38px rgba(0, 0, 0, 0.42), 0 1px 5px rgba(0, 0, 0, 0.28);
+  --shadow-menubar: 0 1px 0 rgba(255, 255, 255, 0.06);
+  --shadow-dock: 0 12px 34px rgba(0, 0, 0, 0.45);
+  --shadow-inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.3);
+
+  --radius-window: 11px;
+  --radius-panel: 9px;
+  --radius-control: 7px;
+  --radius-pill: 999px;
+
+  --menubar-height: 26px;
+  --titlebar-height: 40px;
+  --dock-height: 62px;
+
+  --ease-out: cubic-bezier(0.22, 0.9, 0.3, 1);
+  --ease-spring: cubic-bezier(0.2, 1.2, 0.35, 1);
+  --duration-fast: 120ms;
+  --duration-base: 190ms;
+
+  --focus-timer: 25 * 60;
+  --focus-break: 5 * 60;
+}

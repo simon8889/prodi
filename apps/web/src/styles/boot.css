@@ -1,0 +1,82 @@
+.boot {
+  position: absolute;
+  inset: 0;
+  z-index: 9700;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  padding: 24px;
+  text-align: center;
+  background: rgba(8, 8, 13, 0.72);
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  animation: prodi-fade-in var(--duration-base) var(--ease-out);
+}
+
+.boot__logo {
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 17px;
+  color: #fff;
+  background: linear-gradient(145deg, var(--accent) 0%, var(--purple) 100%);
+  box-shadow: 0 10px 30px rgba(10, 132, 255, 0.32);
+}
+
+.boot__name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: var(--text-primary);
+}
+
+.boot__status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.boot__status--error {
+  max-width: 340px;
+  color: var(--orange);
+}
+
+.boot__hint {
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.boot__hint code {
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  background: var(--bg-inset);
+  color: var(--text-secondary);
+}
+
+kbd {
+  display: inline-block;
+  min-width: 17px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-family: var(--font-ui);
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--stroke-subtle);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.todo__meta-actions {
+  margin-left: auto;
+}
+
+.todo__item-progress {
+  height: 3px;
+}
